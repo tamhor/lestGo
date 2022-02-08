@@ -1,0 +1,5 @@
+.env
+tmp/*
+vendor/*
+database/gorm.db
+go.sum
