@@ -26,7 +26,7 @@ Download and install Golang <a href="https://go.dev/doc/install">here</a>.
 - Rename environtment to .env \
 `mv environtment .env`
 - Setup Database on .env \
--- Sqlite: just using DB_CONNECTION
+-- Sqlite: just using DB_CONNECTION \
 `DB_CONNECTION="sqlite"` \
 -- Postgresql \
 `DB_CONNECTION="postgres"` \
