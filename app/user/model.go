@@ -4,7 +4,7 @@ import "github.com/google/uuid"
 
 type User struct {
 	Uuid     uuid.UUID `json:"uuid"`
-	Username string    `json:"username"`
+	Username string    `gorm:"unique" json:"username"`
 	Password string    `json:"password"`
 	Email    string    `json:"email"`
 }
